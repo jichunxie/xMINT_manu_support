@@ -6,14 +6,19 @@ This repository contains the implementation of the paper available on [OpenRevie
 
 To get started, follow these steps:
 
-1. Create a Python 3.8 environment.
-2. Install the required packages using the `requirements.txt` file.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/jichunxie/xMINT_manu_support
+    cd xMINT_manu_support
+    ```
 
-```bash
-python -m venv xmint_env
-source xmint_env/bin/activate
-pip install -r requirements.txt
-```
+2. Create a Python 3.8 environment.
+3. Install the required packages using the `requirements.txt` file:
+    ```bash
+    python -m venv xmint_env
+    source xmint_env/bin/activate
+    pip install -r requirements.txt
+    ```
 
 ## Input Data Format
 
@@ -31,15 +36,13 @@ Unzip the Xenium Output Bundle folder and place the H&E image into the output fo
 To run the pipeline, follow these steps:
 
 1. Run the preprocessing script:
-
-```bash
-python preprocess_to_sequence.py
-```
+    ```bash
+    python preprocess_to_sequence.py
+    ```
 
 2. Run the main xMINT script:
-
-```bash
-python xmint_main.py
-```
+    ```bash
+    python xmint_main.py
+    ```
 
 Before running these scripts, ensure you update the sample names and other customized parameters as needed.
