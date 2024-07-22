@@ -12,11 +12,14 @@ To get started, follow these steps:
     cd xMINT_manu_support
     ```
 
-2. Create a Python 3.8 environment.
+2. Create a Conda environment with Python 3.8:
+    ```bash
+    conda create -n xmint_env python=3.8
+    conda activate xmint_env
+    ```
+
 3. Install the required packages using the `requirements.txt` file:
     ```bash
-    python -m venv xmint_env
-    source xmint_env/bin/activate
     pip install -r requirements.txt
     ```
 
