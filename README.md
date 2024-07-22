@@ -31,6 +31,10 @@ For each dataset, the input data should include:
 
 Unzip the Xenium Output Bundle folder and place the H&E image into the output folder.
 
+Our paper utilized the following datasets:
+- [FFPE Human Breast with Pre-designed Panel 1 Standard](https://www.10xgenomics.com/datasets/ffpe-human-breast-with-pre-designed-panel-1-standard)
+- [Human Tonsil Data: Xenium Human Multi-Tissue and Cancer Panel 1 Standard](https://www.10xgenomics.com/datasets/human-tonsil-data-xenium-human-multi-tissue-and-cancer-panel-1-standard)
+
 ## Pipeline
 
 To run the pipeline, follow these steps:
